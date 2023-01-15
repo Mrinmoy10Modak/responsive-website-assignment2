@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/*     header section     */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    ;
+}
+
+.h-section1 {
+    display: flex;
+    color: #131313;
+}
+
+.h-head1 {
+    padding: 50px 670px 102px 215px;
+    font-weight: 700;
+    font-size: 45px;
+
+}
+
+.h-div1 {
+    display: flex;
+    gap: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    margin-top: 50px;
+
+}
+
+.h-section2 {
+    text-align: center;
+
+}
+
+.h-head2 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-left: 320px;
+    margin-right: 340px;
+
+}
+
+.h-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 20px;
+    margin-left: 320px;
+    margin-right: 340px;
+}
+
+.h-button {
+    padding: 20px 25px;
+    background-color: orangered;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.h-div2 img {
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-left: 230px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+}
