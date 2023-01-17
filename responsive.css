@@ -72,28 +72,29 @@ header {
 }
 
 /*   main section1  */
-.m-section1 {}
+.m-section1 {
+    display: flex;
+}
 
 .m-div1 {
     text-align: right;
-    padding: 280px 300px 330px 70px;
+    padding: 280px 50px 330px 70px;
 
 
 }
 
 .m-div2 {
-    text-align: left;
     display: grid;
     grid-template-columns: 0fr 0fr;
     gap: 10px;
-    padding: 85px 0px 0px 300px;
+    padding: 85px 0px 0px 200px;
 }
 
 .m-head1 {
     font-weight: 500;
     font-size: 45px;
     color: #727272;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 
 }
 
@@ -112,7 +113,7 @@ header {
     padding: 20px 25px;
     background-color: orangered;
     border-radius: 5px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 /*   main section2   */
@@ -165,7 +166,7 @@ header {
 font-size: 25px;
     width: 258px;
     height: 109px;
-    background: #fa8703;
+    background: orangered;
     border-radius: 8px;
 }
 /*   footer section1   */
