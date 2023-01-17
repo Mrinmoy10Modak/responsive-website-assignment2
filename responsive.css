@@ -30,6 +30,7 @@ header {
     margin-top: 50px;
 
 }
+
 /*   header section2   */
 .h-section2 {
     text-align: center;
@@ -145,7 +146,7 @@ header {
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
-    
+
 }
 
 .m-head3 {
@@ -163,79 +164,103 @@ header {
     color: #FFFFFF;
     padding: 25px 42px;
     font-weight: 500;
-font-size: 25px;
+    font-size: 25px;
     width: 258px;
     height: 109px;
     background: orangered;
     border-radius: 8px;
 }
+
 /*   footer section1   */
-.f-div1{
+.f-div1 {
     margin-left: 200px;
-       
+
 }
-.f-head1{
+
+.f-head1 {
     font-weight: 700;
     font-size: 45px;
     color: #131313;
 }
-.f-paragraph1{
+
+.f-paragraph1 {
     font-weight: 400;
-font-size: 16px;
-width: 542px;
-height: 52px;
-color: #727272;
+    font-size: 16px;
+    width: 542px;
+    height: 52px;
+    color: #727272;
 
 }
-.f-div2{
-display: flex;
-justify-content: space-between;
-margin:50px 200px 160px 200px;
+
+.f-div2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px 160px 200px;
 }
-.f-div3{
+
+.f-div3 {
     border: 1px solid #FF900E;
-border-radius: 8px;
-width: 141.83px;
-height: 141.83px;
-font-weight: 600;
-font-size: 20px;
-padding: 45px 36px 60px 36px;
-justify-content:center;
+    border-radius: 8px;
+    width: 141.83px;
+    height: 141.83px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 45px 36px 60px 36px;
+    justify-content: center;
+    transition: all 1s ease;
 }
+
+.f-div3:hover {
+    transform: rotate(60deg);
+}
+
 /*   footer section2   */
-.f-div4{
+.f-div4 {
     text-align: center;
     display: grid;
     gap: 10px;
 }
-.f-head2{
+
+.f-head2 {
     font-weight: 700;
-font-size: 45px;
-color: #131313;
-height: 53px;
+    font-size: 45px;
+    color: #131313;
+    height: 53px;
 }
-.f-paragraph2{
+
+.f-paragraph2 {
     font-weight: 400;
-font-size: 16px;
-color: #727272;
-height: 52px;
+    font-size: 16px;
+    color: #727272;
+    height: 52px;
 }
-.f-div5{
+
+.f-div5 {
     display: flex;
     justify-content: space-around;
 }
-.f-div6{
+
+.f-div6 {
     background: #FFF4E7;
-border-radius: 8px;
-width: 1440px;
-height: 100px;
-margin: 100px 240px;
+    border-radius: 8px;
+    width: 1440px;
+    height: 100px;
+    margin: 100px 240px;
 
 }
-.f-paragraph3{
+
+.f-paragraph3 {
     text-align: center;
     padding-top: 38px;
     font-weight: 400;
-font-size: 20px;
-color: #424242;
+    font-size: 20px;
+    color: #424242;
+}
+@media only screen and (max-width: 768px){
+    *{
+        width: auto;
+        height: auto; 
+        padding: 0%;
+        margin: auto;
+    }  
 }
